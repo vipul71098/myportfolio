@@ -153,7 +153,7 @@ export const educationInfo = [
     },
     {
       schoolName: ' Senior Secondary School Examination',
-      subHeader: 'Kendriya Vidyalaya (lucknow)',
+      subHeader: 'Central School (lucknow)',
       duration: '2014 - 2016',
       desc: 'Participated in the research of XXX and published 3 papers.',
       descBullets: [
@@ -210,7 +210,7 @@ export const projects = [
   {
     name: "Glance",
     url: "http://www.dev-glance.com.s3-website.ap-south-1.amazonaws.com/reseller/login",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    desc: "Its a USA based call center data management app built in laravel. It manage number of call center in a area and number of phone in each call center along with its activity. I help in generating various reports  for current time, daily, weekly, monthy and Early basis. and also create the apis for its advance functionality",
   },
   {
     name: "Resort App",
