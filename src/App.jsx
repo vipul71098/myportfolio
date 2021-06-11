@@ -9,14 +9,11 @@ import Education from "./containers/Education";
 import Experience from './containers/Experience';
 import Projects from './containers/Projects';
 import GithubProfile from './containers/GithubProfile'
-import Project from './pages/project'
 const App = () => {
     return (
         <BrowserRouter>
             <Switch>
-            <Route path="/Glance">
-            <Project />
-            </Route>
+            
                 <Route path="/" exact render={props => (
                     <>
                        <Navigation />
