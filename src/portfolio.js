@@ -231,11 +231,11 @@ export const projects = [
     desc: "Its is a simple CRUD REST Api built in nodeJs,expressJs and mongoose database. I also used JsonWebToken (JWT) to secure the routes of api. I deployed it on glitch",
   },
   {
-    name: "Blog App",
+    name: "Json Api Blog App",
     git: "source code",
     giturl: "https://github.com/vipul71098/blog-task",
     url: "https://react-blog-app-task.herokuapp.com/",
-    desc: "Its is a blog app built in nodeJs,expressJs, mongoose database and  reactjs as frontend. It have add , delete, view blog and also update comment of each blog.. I deployed it on heroku",
+    desc: "Its is a simple CRUD REST Api built in nodeJs,expressJs and mongoose database. I also used JsonWebToken (JWT) to secure the routes of api. I deployed it on glitch",
   },
   {
     name: "Nettoken",
@@ -253,6 +253,11 @@ export const projects = [
     giturl: 'https://github.com/vipul71098/user-activity',
     url: "https://fathomless-bastion-21454.herokuapp.com/",
     desc: "Its i a small task in which i have display data in reactjs from mock api. And also interpret and visualise data in form of chart. I deployed its on heroku server.",
+  },
+  {
+    name: "Tripogini(Ecommerce)",
+    url: "https://tripogini.com/",
+    desc: "It is an ecommerce website build on nodejs. I work on its various module like authentication, cart. and managing database.",
   },
 
 ]
