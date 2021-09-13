@@ -231,11 +231,11 @@ export const projects = [
     desc: "Its is a simple CRUD REST Api built in nodeJs,expressJs and mongoose database. I also used JsonWebToken (JWT) to secure the routes of api. I deployed it on glitch",
   },
   {
-    name: "Json Api Blog App",
+    name: "Blog App",
     git: "source code",
     giturl: "https://github.com/vipul71098/blog-task",
     url: "https://react-blog-app-task.herokuapp.com/",
-    desc: "Its is a simple CRUD REST Api built in nodeJs,expressJs and mongoose database. I also used JsonWebToken (JWT) to secure the routes of api. I deployed it on glitch",
+    desc: "Its is a blog app built in nodeJs,expressJs, mongoose database and  reactjs as frontend. It have add , delete, view blog and also update comment of each blog.. I deployed it on heroku",
   },
   {
     name: "Nettoken",
