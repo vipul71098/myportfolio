@@ -16,13 +16,13 @@ const App = () => {
             
                 <Route path="/" exact render={props => (
                     <>
-                        <Navigation />
+                       <Navigation />
                         <Greetings/>
                         <Skills />
                          <Projects />
                          <Experience />
+                         <Education />
                         <Proficiency />
-                        <Education />
                         <GithubProfile />
                     </>
                 )}>
