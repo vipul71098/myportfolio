@@ -20,7 +20,7 @@ const Proficiency = () => {
            <Fade bottom duration={1000} distance="40px">
             <Row>
                <Col>
-               <img alt="" class="rounded-circle img-center img-fluid shadow shadow-lg--hover mb-4" width="450" src={imgs}/>
+               <img alt="" class="rounded-circle img-center img-fluid shadow shadow-lg--hover mb-4" style={{ width: '414px', height: '388px' }} src={imgs}/>
                </Col>
             </Row>
             <Row>
