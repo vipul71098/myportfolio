@@ -12,6 +12,7 @@ import {
 import { Fade } from 'react-reveal';
 
 import GreetingLottie from "../components/DisplayLottie";
+import imgs from  '../assets/vips.jpg';
 
 const Proficiency = () => {
     return (
@@ -19,7 +20,7 @@ const Proficiency = () => {
            <Fade bottom duration={1000} distance="40px">
             <Row>
                <Col>
-               <img alt="" class="rounded-circle img-center img-fluid shadow shadow-lg--hover mb-4" width="450" src="https://avatars.githubusercontent.com/u/38537174?v=4" />
+               <img alt="" class="rounded-circle img-center img-fluid shadow shadow-lg--hover mb-4" width="450" src={imgs}/>
                </Col>
             </Row>
             <Row>
