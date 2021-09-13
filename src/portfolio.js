@@ -153,7 +153,7 @@ export const educationInfo = [
     },
     {
       schoolName: ' Senior Secondary School Examination',
-      subHeader: 'Central School (lucknow)',
+      subHeader: 'Kendriya Vidyalaya (lucknow)',
       duration: '2014 - 2016',
       desc: 'Participated in the research of XXX and published 3 papers.',
       descBullets: [
@@ -172,7 +172,25 @@ export const educationInfo = [
 ]
 
 export const experience = [
+ {
+    role: 'Full Stack Developer',
+    company: 'Stimulus Consultancy',
+    compurl: 'https://www.stimulusco.com/',
+    // companylogo: airbnb,
+    date: 'Jan 2021 – present',
+    desc:
+      'Landed my first full time job at Stimulus consultancy in starting of 2021 for a full stack developer role. Worked on many live projects and gained knowledge about various tools such as HubSpot Integration, VoIP Telephony Management Tool, NetToken, NetVisor, etc.',
+  },
   {
+    role: 'Full Stack Intern',
+    company: 'Enterux Solutions',
+    compurl: 'https://enterux.com/',
+    // companylogo: github,
+    date: 'May 2020 – aug 2020',
+    desc:
+      'As a part of internship program, I was selected for the position of Full Stack Developer I worked on both on front end and backend of the enterux app & website, which are build on react-native and nodejs respectively.',
+  },
+   {
     role: 'Full Stack Intern',
     company: 'Survaider',
     compurl: 'http://www.survaider.com/',
@@ -185,31 +203,14 @@ export const experience = [
     //   'Creating a python backend app to Scrape online ratings and compute score for a business',
     //   'Assisting development teams with day to day task',
     // ],
-  },
-  {
-    role: 'Full Stack Intern',
-    company: 'Enterux Solutions',
-    compurl: 'https://enterux.com/',
-    // companylogo: github,
-    date: 'May 2020 – aug 2020',
-    desc:
-      'As a part of internship program, I was selected for the position of Full Stack Developer I worked on both on front end and backend of the enterux app & website, which are build on react-native and nodejs respectively.',
-  },
-  {
-    role: 'Full Stack Developer',
-    company: 'Stimulus Consultancy',
-    compurl: 'https://www.stimulusco.com/',
-    // companylogo: airbnb,
-    date: 'Jan 2021 – present',
-    desc:
-      'Landed my first full time job at Stimulus consultancy in starting of 2021 for a full stack developer role. Worked on many live projects and gained knowledge about various tools such as HubSpot Integration, VoIP Telephony Management Tool, NetToken, NetVisor, etc.',
-  },
+  }
+
 ]
 
 export const projects = [
   {
     name: "Glance",
-    url: "https://voipglance.com/",
+    url: "http://www.dev-glance.com.s3-website.ap-south-1.amazonaws.com/reseller/login",
     desc: "Its a USA based call center data management app built in laravel. It manage number of call center in a area and number of phone in each call center along with its activity. I help in generating various reports  for current time, daily, weekly, monthy and Early basis. and also create the apis for its advance functionality",
   },
   {
@@ -227,6 +228,13 @@ export const projects = [
     git: "source code",
     giturl: "https://github.com/vipul71098/crud-node-api-jwt",
     url: "https://super-workable-kitty.glitch.me/",
+    desc: "Its is a simple CRUD REST Api built in nodeJs,expressJs and mongoose database. I also used JsonWebToken (JWT) to secure the routes of api. I deployed it on glitch",
+  },
+  {
+    name: "Json Api Blog App",
+    git: "source code",
+    giturl: "https://github.com/vipul71098/blog-task",
+    url: "https://react-blog-app-task.herokuapp.com/",
     desc: "Its is a simple CRUD REST Api built in nodeJs,expressJs and mongoose database. I also used JsonWebToken (JWT) to secure the routes of api. I deployed it on glitch",
   },
   {
